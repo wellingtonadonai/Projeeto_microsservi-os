@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class PedidoService {
     private final Logger logger = LoggerFactory.getLogger(PedidoService.class);
 
-    @Value("$rabbitmq.exchange.name")
+    @Value("${rabbitmq.exchange.name}")
     private String exchangeName;
 
     private final RabbitTemplate rabbitTemplate;
