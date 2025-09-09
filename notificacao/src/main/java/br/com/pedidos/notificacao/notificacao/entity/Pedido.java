@@ -1,8 +1,7 @@
-package br.com.microsservicos.entity;
+package br.com.pedidos.notificacao.notificacao.entity;
 
-import br.com.microsservicos.entity.enums.Status;
+import br.com.pedidos.notificacao.notificacao.entity.enums.Status;
 import com.fasterxml.jackson.annotation.JsonFormat;
-
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

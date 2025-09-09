@@ -1,4 +1,4 @@
-package br.com.microsservicos.enums;
+package br.com.microsservicos.entity.enums;
 
 public enum Status {
     EM_PROCESSAMENTO , PROCESSADO
