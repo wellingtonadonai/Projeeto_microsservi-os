@@ -87,4 +87,17 @@ public class Pedido {
     public void setId(UUID id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "id=" + id +
+                ", cliente='" + cliente + '\'' +
+                ", itens=" + itens +
+                ", valorTotal=" + valorTotal +
+                ", emailNotificacao='" + emailNotificacao + '\'' +
+                ", status=" + status +
+                ", dataHora=" + dataHora +
+                '}';
+    }
 }
