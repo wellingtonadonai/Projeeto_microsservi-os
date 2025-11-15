@@ -1,9 +1,3 @@
-Perfeito — vou ajustar o README deixando claro que **o Processador é quem salva os dados no banco**, e não o serviço de Pedidos.
-
-Aqui está a versão revisada, simples, clara e pronta para colocar no GitHub:
-
----
-
 # Microsserviços – Pedidos, Processador e Notificação
 
 ## 📌 Descrição
