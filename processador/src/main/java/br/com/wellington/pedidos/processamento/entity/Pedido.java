@@ -9,8 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-@AllArgsConstructor
-@NoArgsConstructor
 @Entity
 @Table(name = "pedido")
 public class Pedido {
@@ -33,6 +31,20 @@ public class Pedido {
 
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime dataHora = LocalDateTime.now();
+
+    public Pedido(){
+
+    }
+
+    public Pedido(UUID id, String cliente, List<ItemPedido> itens, Double valorTotal, String emailNotificacao, Status status, LocalDateTime dataHora) {
+        this.id = id;
+        this.cliente = cliente;
+        this.itens = itens;
+        this.valorTotal = valorTotal;
+        this.emailNotificacao = emailNotificacao;
+        this.status = status;
+        this.dataHora = dataHora;
+    }
 
     public UUID getId() {
         return id;
