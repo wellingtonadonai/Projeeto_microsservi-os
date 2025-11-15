@@ -2,7 +2,6 @@ package br.com.wellington.pedidos.processamento.entity;
 import br.com.wellington.pedidos.processamento.entity.enums.Status;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
-import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
