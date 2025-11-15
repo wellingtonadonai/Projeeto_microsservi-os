@@ -1,4 +1,4 @@
-package br.com.wellington.pedidos.processamento.processador;
+package br.com.wellington.pedidos.processamento;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
