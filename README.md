@@ -145,6 +145,3 @@ http://localhost:{porta}/swagger-ui.html
 3. Faça suas melhorias
 4. Envie um Pull Request
 
----
-
-Se quiser, posso **gerar também um diagrama em imagem** mostrando o fluxo dos serviços!
